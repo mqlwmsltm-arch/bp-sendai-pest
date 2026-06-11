@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <title>마포 마사지 추천정보 - 블로그 | 진솔한 후기와 팁</title>
+    <meta name="description" content="마포 마사지 추천정보에 대해 진솔하게 이야기합니다. 홍대와 연남동 사이에서 마사지샵 고르는 팁과 실제 방문 후기를 공유합니다.">
+    <meta name="keywords" content="마포 마사지 추천정보, 마포 마사지, 홍대 마사지, 연남동 마사지, 건식 마사지, 타이 마사지">
+    <link rel="canonical" href="https://go-hapjeong-club.xyz/blog.html">
+    
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://go-hapjeong-club.xyz/blog.html">
+    <meta property="og:title" content="마포 마사지 추천정보 - 블로그">
+    <meta property="og:description" content="마포 마사지 추천정보에 대해 진솔하게 이야기합니다. 홍대와 연남동 사이에서 마사지샵 고르는 팁과 실제 방문 후기를 공유합니다.">
+    <meta property="og:image" content="https://sendai-pest.pages.dev/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f5f5f7;
+            --text-primary: #1d1d1f;
+            --text-secondary: #86868b;
+            --accent: #0071e3;
+            --accent-hover: #0077ed;
+            --border: #d2d2d7;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --spacing-unit: 8px;
+            --container-width: 980px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        /* Layout Utilities */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            padding: 60px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        /* Header & Nav */
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: saturate(180%) blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            height: 48px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: -0.01em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 980px;
+            font-size: 12px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-hover);
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: 21px;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+
+        /* Content Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            margin-top: 60px;
+        }
+
+        .article-content h2 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: -0.015em;
+        }
+
+        .article-content h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+
+        .article-content p {
+            font-size: 17px;
+            color: #333;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        .article-meta {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Sidebar */
+        .sidebar-card {
+            background: var(--bg-secondary);
+            padding: 30px;
+            border-radius: 18px;
+            margin-bottom: 30px;
+        }
+
+        .sidebar-card h4 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .sidebar-list {
+            list-style: none;
+        }
+
+        .sidebar-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+        }
+
+        .sidebar-list li:last-child {
+            border-bottom: none;
+        }
+
+        .sidebar-list a {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sidebar-list span {
+            color: var(--text-secondary);
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: 80px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 24px 0;
+        }
+
+        .faq-question {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            padding: 40px 0;
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero p {
+                font-size: 19px;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+            <a href="#" class="logo">마포 마사지 인사이트</a>
+            <nav class="nav-links">
+                <a href="#">홈</a>
+                <a href="#">홍대エリア</a>
+                <a href="#">연남동</a>
+                <a href="#">공덕/망원</a>
+                <a href="#">블로그</a>
+            </nav>
+            <a href="tel:010-0000-0000" class="cta-button">문의하기</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>마포 마사지 추천정보,<br>거품 빼고 진짜만 남겼습니다.</h1>
+                <p>블링블링한 인테리어에 속지 마세요. 어깨가 풀리는지, 돈이 아까운지<br>현실적인 기준으로 따져본 마포구 마사지샵 가이드입니다.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="content-grid">
+                    <!-- Main Article -->
+                    <article class="article-content">
+                        <span class="article-meta">2024. 05. 21 • 마포 마사지 추천정보 • 작성자: cynical_editor</span>
+                        
+                        <h2>솔직히 말해서, 다 거기서 거기 아닙니까?</h2>
+                        <p>마포구 편집샵 문을 열었다 닫았다 하는 속도보다 빠르게 마사지샵도 생겨나고 사라집니다. 인스타그램 스토리에 도배된 '오픈런 필수' 같은 문구 보며 가봤자, 정작 누워보면技师 (테라피스트) 는 초보이고 방음은 안 되고, 나가는 길에 "회원권 추천드려요" 하는 멘트에 속터지는 경험, 다들 한 번쯤 있으시죠?</p>
+                        
+                        <p>저도 그런 사람 중 하나였습니다. until recently. 마포구 내 20 여 개 이상의 샵을 직접 발로 뛰며 (그리고 몸이 망가질 뻔하며) 정리한 <strong>마포 마사지 추천정보</strong>를 공유합니다. 광고비 받은 거 하나 없습니다. 그냥 제 등뼈를 위해 쓴 글입니다.</p>
+
+                        <h3>1. 홍대 vs 연남동: 분위기 차이보다 '손맛' 차이</h3>
+                        <p>홍대 입구 쪽 샵들은 대체로 접근성이 좋고 가격 경쟁력이 있습니다. 하지만 유동인구가 많다 보니 회전율이 중요해서인지, 60 분 코스인데 50 분 만에 끝내는 눈을 뜨고 감아야 하는 샵이 의외로 많습니다. 반면 연남동 샵들은 감성 인테리어에 사운드 시스템까지 갖추고 있어 '힐링' 타이틀을 걸기 좋습니다. 다만, 가격 거품이 좀 껴있으니 초심자에게는 주의가 필요합니다.</p>
+                        <p>제 추천은 <strong>'건식 위주라면 홍대 뒷골목', '오일/아로마라면 연남동'</strong>입니다. 건식은 힘 조절이 생명인데 홍대 쪽에 노련한 아저씨들이 (혹은 아주머니들이) 많고, 오일은 분위기랑 향기가 중요하니 연남동이 낫습니다.</p>
+
+                        <h3>2. '태국 마사지' 간판의 함정</h3>
+                        <p>마포구, 특히 공덕 근처에 태국 마사지샵이 참 많습니다. 간판에 태국인 사진이 있다고 해서 다 태국인技师인 건 아닙니다. 한국인 직원이 태국식 기법을 흉내 내는 곳도 꽤 있어요. 진짜 태국 마사지를 원하신다면, 예약 전에 꼭 "technician 이 현지인인지" 확인하세요. 그리고 map 에서 위치를 봤을 때, 주택가 깊숙한 곳에 있는 곳이 오히려 로컬 감성이 살아있는 경우가 많습니다.</p>
+
+                        <h3>3. 가격보다 중요한 '후반전' 관리</h3>
+                        <p>대부분 샵이 전반전 (앞 30 분) 에 힘을 빼고 후반전에 힘을 줍니다. 혹은 그 반대죠. 제가 추천하는 팁은, <strong>예약 시 "어깨 결림이 심해서 후반전에 집중해달라"</strong>고 미리 메모를 남기거나 전화로 말하세요. 이렇게 요청을 해도 귀찮다는 듯이 대충 넘어가는 샵은二度 다시 가지 않으셔도 됩니다. 진짜 좋은 샵은 고객의 상태를 파악하고 코스를 유연하게 변형시킵니다.</p>
+
+                        <div class="faq-section">
+                            <h3>자주 묻는 질문 (FAQ)</h3>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">Q. 남자 테라피스트와 여자 테라피스트 중 누가 더 힘이 좋나요?</div>
+                                <div class="faq-answer">A. 성별보다는 경력입니다. 다만, 지압 위주의 깊은 근막 이완을 원하신다면 남성 테라피스트가 유리한 경우가 많고, 림프 순환이나 부드러운 스트레칭을 원하신다면 여성 테라피스트가 더 디테일합니다. 마포 지역 특성상 여성 샵이 압도적으로 많지만, 공덕역 인근에는 남성 전문 샵도 몇 군데 숨어있습니다.</div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">Q. 마포 마사지 추천정보를 볼 때 가장 먼저 체크해야 할 것은?</div>
+                                <div class="faq-answer">A. '네이버 지도' 혹은 '카카오맵'의 최근 1 개월 리뷰입니다. 블로거들의 홍보성 글 (사진은 화려한데 내용은 부실한) 은 걸러내세요. "재방문 의사 있음", "技师 분 손맛 좋음" 같은 구체적인 멘트가 있는 리뷰가 진짜입니다.</div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">Q. 가격대는 보통 얼마나 하나요?</div>
+                                <div class="faq-answer">A. 마포구 평균적으로 건식 60 분 기준 5 만 원 ~ 7 만 원 선입니다. 4 만 원 이하라면 초보 연수생이 연습하는 경우일 확률이 높으니 주의하시고, 9 만 원을 넘어가면 인테리어 비용이 포함된 경우니 취향에 따라 선택하시면 됩니다.</div>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 40px; font-style: italic; color: var(--text-secondary);">
+                            * 본 글은 작성자의 주관적인 경험에 기반한 마포 마사지 추천정보입니다. 개인의 체질과 기호에 따라 만족도는 달라질 수 있습니다.
+                        </p>
+                    </article>
+
+                    <!-- Sidebar -->
+                    <aside>
+                        <div class="sidebar-card">
+                            <h4>인기 검색어</h4>
+                            <p>요즘 마포에서 가장 핫한 키워드입니다.</p>
+                            <ul class="sidebar-list">
+                                <li><a href="#">마포 마사지 추천정보 <span>1 위</span></a></li>
+                                <li><a href="#">홍대 건식 마사지 <span>2 위</span></a></li>
+                                <li><a href="#">연남동 아로마 <span>3 위</span></a></li>
+                                <li><a href="#">공덕 태국 마사지 <span>4 위</span></a></li>
+                                <li><a href="#">망원동 출장마사지 <span>5 위</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-card">
+                            <h4>Editor's Pick</h4>
+                            <p>개인적으로 가장 만족했던 샵의 특징입니다.</p>
+                            <ul class="sidebar-list">
+                                <li><a href="#">방음 완벽함 <span>✓</span></a></li>
+                                <li><a href="#">수건 청결함 <span>✓</span></a></li>
+                                <li><a href="#">강요 없는 대화 <span>✓</span></a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section
+</body>
+</html>
