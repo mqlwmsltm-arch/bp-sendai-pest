@@ -61,8 +61,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://go-hapjeong-club.xyz/posts/interview-002-o2cduf.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://go-hapjeong-club.xyz/posts/myth-001-1mq0mk2.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://go-hapjeong-club.xyz/posts/myth-001-oeys3l.html</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,6 +117,12 @@
   <url>
     <loc>https://go-hapjeong-club.xyz/posts/t3link-002-bi1a5c.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://go-hapjeong-club.xyz/posts/t3link-003-5qkmsi.html</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
